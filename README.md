@@ -1,0 +1,3 @@
+# NHDynamicCellPro
+动态调整cell，不推荐在heightForRow里边调用cellForRow方法，可尝试使用estimateHeightForRow
+sddd
