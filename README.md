@@ -1,7 +1,11 @@
 # NHDynamicCellPro
-动态UITableViewCell 以两个label为例说明
+##### 动态高度UITableViewCell for iOS
 ##### Tips：
-不推荐在heightForRow里边调用cellForRow方法，可尝试使用estimateHeightForRow
+```
+iOS7以上不再推荐使用heightForRow方法！
+也不推荐在heightForRow里边调用cellForRow方法
+本demo以两个label为例计算动态高度，并提供XIB、原生code两种自定义cell展示
+```
 
 Usage：
 **[引言：](http://longxdragon.github.io/2015/05/26/UITableView%E4%BC%98%E5%8C%96%E6%8A%80%E5%B7%A7/)**
